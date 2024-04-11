@@ -30,7 +30,7 @@ dragon_wins = 0
 # Main game loop
 while True:
     # Prompt the player for the number of battle rounds
-    num_rounds = int(input("Enter the number of battle rounds (1-5 inclusive): "))
+    num_rounds = int(input("Let's begin: \n Enter the number of battle rounds (1-5 inclusive): "))
     
     # Validate input
     if num_rounds < 1 or num_rounds > 5:
